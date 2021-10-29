@@ -1,23 +1,23 @@
 <template>
   <div class="calculator">
-      <Display :value="displayValue" />
-      <Button label="clear" triple @batatinha ="clearMemory" />
-      <Button label="/" operation @batatinha ="setOperation" />
-      <Button label="7" @batatinha ="addDigit" />
-      <Button label="8" @batatinha ="addDigit" />
-      <Button label="9" @batatinha ="addDigit" />
-      <Button label="*" operation @batatinha ="setOperation" />
-      <Button label="4" @batatinha ="addDigit" />
-      <Button label="5" @batatinha ="addDigit" />
-      <Button label="6" @batatinha ="addDigit" />
-      <Button label="-" operation @batatinha ="setOperation" />
-      <Button label="1" @batatinha ="addDigit" />
-      <Button label="2" @batatinha ="addDigit" />
-      <Button label="3" @batatinha ="addDigit" />
-      <Button label="+" operation @batatinha ="setOperation" />
-      <Button label="0" double @batatinha ="addDigit" />
-      <Button label="." @batatinha ="addDigit" />
-      <Button label="=" operation @batatinha ="setOperation" />
+      <Display :value="displayValue"/>
+      <Button label="Clear" triple @active ="clearMemory" />
+      <Button label="/" operation @active ="setOperation" />
+      <Button label="7" @active ="addDigit" />
+      <Button label="8" @active ="addDigit" />
+      <Button label="9" @active ="addDigit" />
+      <Button label="*" operation @active ="setOperation" />
+      <Button label="4" @active ="addDigit" />
+      <Button label="5" @active ="addDigit" />
+      <Button label="6" @active ="addDigit" />
+      <Button label="-" operation @active ="setOperation" />
+      <Button label="1" @active ="addDigit" />
+      <Button label="2" @active ="addDigit" />
+      <Button label="3" @active ="addDigit" />
+      <Button label="+" operation @active ="setOperation" />
+      <Button label="0" double @active ="addDigit" />
+      <Button label="." @active ="addDigit" />
+      <Button label="=" operation @active ="setOperation" />
       
   </div>
 </template>

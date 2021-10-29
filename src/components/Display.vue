@@ -17,7 +17,7 @@ export default {
   border-radius: 5px;
 
   display:flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   padding: 25px;
   font-size: 2.2em;

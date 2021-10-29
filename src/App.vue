@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-  <h1>Calculadora</h1>
+  <h1>Calculadora Vue</h1>
   <Calculator/>
 
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
